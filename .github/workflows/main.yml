@@ -42,7 +42,7 @@ jobs:
           path: staging
       - name: content of current directory
         run:
-          ls-al
+          ls -al
         
 
 

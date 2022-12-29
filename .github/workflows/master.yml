@@ -14,9 +14,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Step 1 - Checkout main branch from GitHub 
         uses: actions/checkout@v2
+      - name: content of current directory
+        run:
+           mkdir installed
       - name: Step 2 - Creating folder 
         run:
-          mkdir installed
           cd installed
           echo 'saad' >1.yaml
           cd ..

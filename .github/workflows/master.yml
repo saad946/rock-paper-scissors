@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
       - name: content of current directory
         run:
-           mkdir installed
+          mkdir installed
       - name: Step 2 - Creating folder 
         run:
           cd installed

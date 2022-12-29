@@ -21,6 +21,7 @@ jobs:
         run: |
           cd installed
           echo 'saad' >1.yaml
+          cat 1.yaml
           cd ..
 
       - name: Step 3 - Persist workflow data as artificats

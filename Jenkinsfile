@@ -2,7 +2,7 @@ node {
    
    //Declare a global variable for mvnHome
 
-   stage('version') { 
+   stage('versions') { 
 
 	  //build job: 'Version Check'
           
